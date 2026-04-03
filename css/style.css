@@ -1275,6 +1275,7 @@ img { max-width: 100%; display: block; }
 
 
 .form-group label { font-size: 14px; font-weight: 600; color: var(--navy); }
+.contact-section .form-group label { color: rgba(255,255,255,0.9); }
 
 
 .form-group input,
