@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(python -c \":*)",
+      "Bash(py -c \":*)",
+      "WebFetch(domain:paleturquoise-peafowl-545943.hostingersite.com)"
+    ]
+  }
+}
