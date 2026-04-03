@@ -5,7 +5,8 @@
       "Bash(gh repo:*)",
       "Bash(python -c \":*)",
       "Bash(py -c \":*)",
-      "WebFetch(domain:paleturquoise-peafowl-545943.hostingersite.com)"
+      "WebFetch(domain:paleturquoise-peafowl-545943.hostingersite.com)",
+      "Bash(find '/c/Users/spete/Documents/Claude Code/Voltura Electric Website/' -name *.png -o -name *.jpg -o -name *.webp -o -name *.ico)"
     ]
   }
 }
