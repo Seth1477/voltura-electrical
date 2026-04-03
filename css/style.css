@@ -1527,9 +1527,9 @@ img { max-width: 100%; display: block; }
 
 
 .service-block__img { border-radius: 10px; min-height: 320px; background: var(--light); overflow: hidden; }
-
-
 .service-block__img img { width: 100%; height: 100%; object-fit: cover; min-height: 320px; }
+.service-block__icon-col { border-radius: 10px; overflow: hidden; min-height: 320px; }
+.service-block__icon-col img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 320px; }
 
 
 
