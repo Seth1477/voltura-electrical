@@ -1240,13 +1240,11 @@ img { max-width: 100%; display: block; }
 }
 
 
-.faq__question.open .faq__icon { transform: rotate(180deg); }
+.faq__item[open] .faq__icon { transform: rotate(180deg); }
+.faq__item > summary { list-style: none; }
+.faq__item > summary::-webkit-details-marker { display: none; }
 
-
-.faq__answer { display: none; padding: 0 22px 18px; font-size: 15px; color: #3a4a5c; line-height: 1.65; }
-
-
-.faq__answer.open { display: block; }
+.faq__answer { padding: 0 22px 18px; font-size: 15px; color: #3a4a5c; line-height: 1.65; }
 
 
 
