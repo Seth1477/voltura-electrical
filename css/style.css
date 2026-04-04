@@ -1353,7 +1353,7 @@ img { max-width: 100%; display: block; }
 .pu-hero__inner { position: relative; z-index: 1; }
 
 
-.pu-grid { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 80px 24px; }
+.pu-grid { max-width: var(--max); margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding: 80px 24px; align-items: center; }
 
 
 .pu-grid--flip { direction: rtl; }
