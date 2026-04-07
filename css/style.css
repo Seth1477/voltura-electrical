@@ -87,6 +87,7 @@ html { scroll-behavior: smooth; }
 
 body {
 
+  overflow-x: hidden;
 
   font-family: var(--font);
 
@@ -1482,7 +1483,7 @@ img { max-width: 100%; display: block; }
 /* -- SERVICE PAGE BLOCKS -- */
 
 
-.service-block { padding: 72px 24px; border-bottom: 1px solid var(--light); }
+.service-block { padding: 72px 24px; border-bottom: 1px solid var(--light); overflow: hidden; }
 
 
 .service-block:nth-child(even) { background: var(--offwhite); }
@@ -1527,9 +1528,9 @@ img { max-width: 100%; display: block; }
 .service-block__list li::before { content: ''; display: block; width: 7px; height: 7px; min-width: 7px; border-radius: 50%; background: var(--blue); margin-top: 5px; }
 
 
-.service-block__img { border-radius: 10px; min-height: 320px; background: var(--light); overflow: hidden; }
-.service-block__img img { width: 100%; height: 100%; object-fit: cover; min-height: 320px; }
-.service-block__icon-col { border-radius: 10px; overflow: hidden; min-height: 320px; }
+.service-block__img { border-radius: 10px; min-height: 320px; background: var(--light); overflow: hidden; width: 100%; }
+.service-block__img img { width: 100%; height: 100%; object-fit: cover; min-height: 320px; display: block; }
+.service-block__icon-col { border-radius: 10px; overflow: hidden; min-height: 320px; width: 100%; }
 .service-block__icon-col img { width: 100%; height: 100%; object-fit: cover; display: block; min-height: 320px; }
 
 
@@ -2065,9 +2066,14 @@ img { max-width: 100%; display: block; }
 
 
   .service-block__inner,
-
-
   .service-block:nth-child(even) .service-block__inner { grid-template-columns: 1fr; direction: ltr; gap: 32px; }
+
+  .service-block__icon-col,
+  .service-block__img { min-height: 240px; }
+
+  .how__steps { grid-template-columns: 1fr 1fr !important; }
+
+  .service-block__list { grid-template-columns: 1fr; }
 
 
   .res-services-grid { grid-template-columns: 1fr 1fr; }
@@ -2126,9 +2132,14 @@ img { max-width: 100%; display: block; }
 
   .who-grid { grid-template-columns: 1fr; }
 
-
   .steps { grid-template-columns: 1fr; }
 
+  .how__steps { grid-template-columns: 1fr !important; }
+
+  .service-block { padding: 48px 20px; }
+
+  .service-block__icon-col,
+  .service-block__img { min-height: 200px; }
 
 }
 
