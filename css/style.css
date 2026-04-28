@@ -2019,6 +2019,14 @@ img { max-width: 100%; display: block; }
 
 
 
+/* -- COMMERCIAL HOW-IT-WORKS STEPS GRID -- */
+
+.com-steps-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
 /* -- PANEL UPGRADE PAGE GRID HELPERS -- */
 
 .pu-pricing-grid {
@@ -2080,6 +2088,9 @@ img { max-width: 100%; display: block; }
   .pu-grid--flip { direction: ltr; }
 
 
+  .com-steps-grid { grid-template-columns: repeat(2, 1fr); }
+
+
   .pu-pricing-grid { grid-template-columns: 1fr; gap: 36px; }
 
 
@@ -2117,6 +2128,9 @@ img { max-width: 100%; display: block; }
 
 
 @media (max-width: 600px) {
+
+
+  .com-steps-grid { grid-template-columns: 1fr; }
 
 
   .hero { padding: 64px 20px 60px; }
