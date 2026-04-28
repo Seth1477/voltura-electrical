@@ -103,7 +103,13 @@ body {
   -webkit-font-smoothing: antialiased;
 
 
+  overflow-x: hidden;
+
+
 }
+
+
+html { overflow-x: hidden; }
 
 
 
@@ -2013,6 +2019,22 @@ img { max-width: 100%; display: block; }
 
 
 
+/* -- PANEL UPGRADE PAGE GRID HELPERS -- */
+
+.pu-pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.pu-process-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+
 /* ============================================================
 
 
@@ -2056,6 +2078,12 @@ img { max-width: 100%; display: block; }
 
 
   .pu-grid--flip { direction: ltr; }
+
+
+  .pu-pricing-grid { grid-template-columns: 1fr; gap: 36px; }
+
+
+  .pu-process-grid { grid-template-columns: 1fr; gap: 36px; }
 
 
   .how__inner { grid-template-columns: 1fr; }
